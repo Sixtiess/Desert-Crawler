@@ -112,6 +112,7 @@ if(!player.isDead){
 
 
 function scoreboard(){
+  textSize(15)
   text('Score: ' + score,10,10)
   text('Game Time: ' + gameTime,10,30)
   text('Stage: ' + stage,10,50)
