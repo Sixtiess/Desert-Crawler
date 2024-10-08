@@ -113,9 +113,9 @@ if(!player.isDead){
 
 function scoreboard(){
   textSize(15)
-  text('Score: ' + score,10,10)
-  text('Game Time: ' + gameTime,10,30)
-  text('Stage: ' + stage,10,50)
+  text('Score: ' + score,10,20)
+  text('Game Time: ' + gameTime,10,40)
+  text('Stage: ' + stage,10,60)
 }
 
 
