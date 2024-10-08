@@ -20,7 +20,7 @@ function preload(){
 
 function setup() {
   cnv = createCanvas(800, 900);
-  cnv.position(0,windowWidth/2-width/2)
+  cnv.position(windowWidth/2-width/2,0)
   player = new Ship(100,100,100,100,87,83,65,68,32,10);
   backgrounds.push(new movingBackgrd(0,-2125,800,3125))
   backgrounds.push(new movingBackgrd(0,-5250,800,3125))
