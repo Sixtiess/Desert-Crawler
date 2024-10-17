@@ -133,8 +133,8 @@ function ifDead(){
 
     if(keyIsDown(80)){
       player.health = 1;
-      player.x = 100;
-      player.y = 100;
+      player.x = width/2;
+      player.y = height-150;
       gameTime = 0;
       stage = 1;
       score = 0;
